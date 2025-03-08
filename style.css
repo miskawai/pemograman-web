@@ -1,0 +1,103 @@
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 33.33%;
+    background-color: #a67c68;
+    padding: 24px;
+    text-align: center;
+    color: white;
+}
+
+.left-section h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.left-section .contact-info {
+    margin-bottom: 24px;
+}
+
+.left-section .contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.left-section .contact-info i {
+    margin-right: 8px;
+}
+
+.left-section .experience {
+    margin-top: 24px;
+}
+
+.right-section {
+    width: 66.67%;
+    padding: 24px;
+}
+
+.right-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.right-section .personal-info,
+.right-section .education {
+    margin-bottom: 24px;
+}
+
+.right-section .personal-info p,
+.right-section .education p {
+    margin-bottom: 8px;
+}
+
+.right-section .education .education-item {
+    margin-bottom: 16px;
+}
+
+.right-section .education .education-item p {
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #333;
+}
