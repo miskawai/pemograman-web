@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
     } else {
         $domain = "@" . explode("@", $username)[1];
 
-        // Cek apakah password sama dengan domain email
+        
         if ($password === $domain) {
             $_SESSION['username'] = $username;
             header("Location: terima.php");
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 </head>
 <body>
     <h2>Login</h2>
-    <form action="index.php" method="post"> <!-- Form action diubah jadi kosong -->
+    <form action="index.php" method="post"> 
         <label for="username">Email:</label> 
         <input type="email" name="username" required> 
         <br>
